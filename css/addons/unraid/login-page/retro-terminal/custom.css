@@ -4,30 +4,37 @@
 /* --body-animation: flicker; This is the background that flickers. SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 /* --custom-text-header-animation: textflicker; /* SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 
-@import url(/css/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
+@import url(/theme.park/css/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
 :root {
---main-bg-color:black;
---body-before:#70d7f61a;
---body-after: #70d7f633;
---body-animation: flicker;
---logo: url(/css/addons/unraid/login-page/alien/logo/wings_shadow.png) center no-repeat;
+--main-bg-color:#0d1b2a;
+--body-before: none;
+--body-after: none;
+--body-animation: none;
+--logo: none;
 --text-color: #ffffff;
 --input-color: #ffffff;
---link-color: #ffffff;
---link-color-hover: #8f2809;
+--link-color: #00bcd4;
+--link-color-hover: #ffffff;
 --case-color: #ffffff;
 --button-text-color: #ffffff;
---button-text-color-hover: #000;
---button-color: #ffffff;
---button-color-hover: #af0606;
---selection-color: #8f2809;
+--button-text-color-hover: #ffffff;
+--button-color: #007acc;
+--button-color-hover: #005f9e;
+--selection-color: #00bcd4;
 --custom-text-header:#ffffff;
 --custom-text-header-shadow:#ffffff;
---custom-text-header-animation: textflicker;
---input-font: 'Share Tech Mono', monospace;
---text-font: 'Share Tech Mono', monospace;
---loginbox-background-color: transparent;
---text-shadow: 0 0 8px;
---text-shadow-color: #ffffff;
---box-shadow: 0 0 15px;
+--custom-text-header-animation: none;
+--input-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+--text-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+--loginbox-background-color: rgba(0,0,0,0.85);
+--text-shadow: none;
+--text-shadow-color: none;
+--box-shadow: 0 0 15px #000000;
+}
+body {
+  background-image: url("/css/addons/unraid/login-page/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: left center;
+  background-attachment: fixed;
 }
